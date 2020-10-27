@@ -1,0 +1,15 @@
+
+
+<h1 class="text-center mb-3">{{title}}</h1>
+<h4>Users API experiment</h4>
+<p>Enter a number to return a list of random users</p>
+
+<form action="/users" method="POST" class="mb-4">
+    <div class="form-group">
+        <label for="numOfUsrs">Number of users:</label>
+        <input type="number" name="numOfUsrs" class="form-control">
+    </div>
+    <input type="submit" value="Go" class="btn btn-primary btn-block">
+</form>
+
+{{{users}}}
